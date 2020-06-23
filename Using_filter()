@@ -1,0 +1,13 @@
+# Example of filter(): it filters items
+my_list = [10, 20, 35]
+
+
+def multiply_by2(item):
+    return item * 2
+
+
+def odd(item):
+    return item % 2 != 0
+
+
+print(list(filter(odd, my_list)))  # filter()
