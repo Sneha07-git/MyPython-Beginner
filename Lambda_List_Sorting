@@ -1,0 +1,7 @@
+#list sorting by second index in a tuple list 
+
+a = [(0,2), (9,8), (50,-4),(11.3,-7)]
+
+a.sort(key= lambda x: x[1])     #index value of 2nd number is 1
+
+print(a)
